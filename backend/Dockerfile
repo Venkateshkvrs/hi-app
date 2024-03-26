@@ -17,4 +17,4 @@ COPY . .
 EXPOSE 5000
 
 # Command to run the application
-CMD ["node", "index.js"]
+CMD ["node", "new-index.js"]
