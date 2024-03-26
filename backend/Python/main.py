@@ -52,5 +52,5 @@ def store_message():
     except Exception as e:
         return jsonify({'error': 'Failed to store message in database', 'mysqlError': str(e)}), 500
 
-if __name__ == '__main__':
-    app.run(port=PORT)
+if _name_ == '_main_':
+    app.run(host='0.0.0.0', port=5000)
